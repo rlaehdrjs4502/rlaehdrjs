@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>김동건</title>
+    <style>
+        body {
+            width: 1900px;
+        }
+        a {
+            text-decoration: none;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        #gnb ul li {
+            float: right;
+            margin-right: 30px;
+            font-size: 13px;
+        }
+
+        #gnb ul li a{
+            color: gray;
+        }
+
+        #logo {
+            margin-left: 50px;
+        }
+
+        #menu_bar {
+            font-size: 15px;
+            width: 100%;
+            height: 20px; 
+        }
+
+        #menu_bar ul li {
+            padding-bottom: 5px;
+            float: left;
+            margin-left: 100px;
+        }
+
+        #menu_bar ul li a {
+            color: gray;
+            
+        }
+
+        #menu_bar ul li a:hover {
+            font-weight: bold;
+            color: black;
+        }
+
+        #item_list {
+            text-align: center;
+        }
+
+        #item_list div {
+            display: inline-block;
+            padding-top: 10px;
+        }
+
+        #item {
+            margin-bottom: 30px;
+            margin-left: 30px;
+            height: 320px;
+        }
+
+        #item img {
+            border: 1px solid gray;
+        }
+
+        #item img:hover {
+            border: 1px solid aqua;
+        }
+
+        #item a {
+            color: black;
+        }
+
+        #item a:hover {
+            font-weight: 700;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="gnb">
+            <ul>
+                <li><a href="">설문조사</a></li>
+                <li><a href="join.html">회원가입</a></li>
+                <li><a href="login.html">로그인</a></li>
+            </ul>
+        </div>
+        <div id="logo">
+            <a href="main.html"><img src="media/cgv.png" alt="로고" height="100px;"></a>
+        </div>
+    </header>
+    <hr>
+    <nav>
+        <div id="menu_bar">
+            <ul>
+                <li><a href="">완성차</a></li>
+                <li><a href="">프레임</a></li>
+                <li><a href="">그룹셋</a></li>
+                <li><a href="">휠셋</a></li>
+                <li><a href="">타이어</a></li>
+                <li><a href="">핸들</a></li>
+                <li><a href="">스템</a></li>
+                <li><a href="">페달</a></li>
+                <li><a href="">브레이크</a></li>
+                <li><a href="">크랭크</a></li>
+                <li><a href="">코그</a></li>
+                <li><a href="">안장</a></li>
+            </ul>
+        </div>
+    </nav>
+    <hr>
+    <section>
+        <article>
+            <div id="item_list">
+                <div id="item">
+                    <a href=""><img src="media/unknown.png" alt="자전거"></a>
+                    <p><a href="">언노운 컴뱃 590,000원</a></p>
+                </div>
+                <div id="item">
+                    <a href="" onclick="alert('준비중입니다.')"><img src="media/pre.png" alt="자전거"></a>
+                    <p><a href="" onclick="alert('준비중입니다.')">상품 준비중입니다.</a></p>
+                </div>
+                <div id="item">
+                    <a href="" onclick="alert('준비중입니다.')"><img src="media/pre.png" alt="자전거"></a>
+                    <p><a href="" onclick="alert('준비중입니다.')">상품 준비중입니다.</a></p>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div id="item_list">
+                <div id="item">
+                    <a href="" onclick="alert('준비중입니다.')"><img src="media/pre.png" alt="자전거"></a>
+                    <p><a href="" onclick="alert('준비중입니다.')">상품 준비중입니다.</a></p>
+                </div>
+                <div id="item">
+                    <a href="" onclick="alert('준비중입니다.')"><img src="media/pre.png" alt="자전거"></a>
+                    <p><a href="" onclick="alert('준비중입니다.')">상품 준비중입니다.</a></p>
+                </div>
+                <div id="item">
+                    <a href="" onclick="alert('준비중입니다.')"><img src="media/pre.png" alt="자전거"></a>
+                    <p><a href="" onclick="alert('준비중입니다.')">상품 준비중입니다.</a></p>
+                </div>
+            </div>
+        </article>
+        <article>
+                <div id="item_list">
+                    <div id="item">
+                        <a href="" onclick="alert('준비중입니다.')"><img src="media/pre.png" alt="자전거"></a>
+                        <p><a href="" onclick="alert('준비중입니다.')">상품 준비중입니다.</a></p>
+                    </div>
+                    <div id="item">
+                        <a href="" onclick="alert('준비중입니다.')"><img src="media/pre.png" alt="자전거"></a>
+                        <p><a href="" onclick="alert('준비중입니다.')">상품 준비중입니다.</a></p>
+                    </div>
+                    <div id="item">
+                        <a href="" onclick="alert('준비중입니다.')"><img src="media/pre.png" alt="자전거"></a>
+                        <p><a href="" onclick="alert('준비중입니다.')">상품 준비중입니다.</a></p>
+                    </div>
+                </div>
+            </article>
+    </section>
+</body>
+</html>
